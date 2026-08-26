@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeskStealth.Core", "src\DeskStealth.Core\DeskStealth.Core.csproj", "{A7A0E75E-6EB1-4D21-A552-219297957D91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeskStealth.App", "src\DeskStealth.App\DeskStealth.App.csproj", "{B8B1F86F-7FC2-4E32-B663-32A3A8A68EA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeskStealth.Core.Tests", "tests\DeskStealth.Core.Tests\DeskStealth.Core.Tests.csproj", "{C9C20770-80D3-4F43-C774-43B4B9B79FB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeskStealth.App.Tests", "tests\DeskStealth.App.Tests\DeskStealth.App.Tests.csproj", "{DA7044FA-60A2-49B6-AF84-90D48E63931A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7A0E75E-6EB1-4D21-A552-219297957D91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A0E75E-6EB1-4D21-A552-219297957D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7A0E75E-6EB1-4D21-A552-219297957D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7A0E75E-6EB1-4D21-A552-219297957D91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8B1F86F-7FC2-4E32-B663-32A3A8A68EA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B1F86F-7FC2-4E32-B663-32A3A8A68EA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B1F86F-7FC2-4E32-B663-32A3A8A68EA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B1F86F-7FC2-4E32-B663-32A3A8A68EA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9C20770-80D3-4F43-C774-43B4B9B79FB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9C20770-80D3-4F43-C774-43B4B9B79FB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9C20770-80D3-4F43-C774-43B4B9B79FB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9C20770-80D3-4F43-C774-43B4B9B79FB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA7044FA-60A2-49B6-AF84-90D48E63931A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA7044FA-60A2-49B6-AF84-90D48E63931A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA7044FA-60A2-49B6-AF84-90D48E63931A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA7044FA-60A2-49B6-AF84-90D48E63931A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

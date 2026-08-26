@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>DeskStealth</AssemblyName>
+    <RootNamespace>DeskStealth</RootNamespace>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Product>工位潜行 / DeskStealth</Product>
+    <Description>256×160 DIP 的离线微型桌面潜行游戏</Description>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>true</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile>
+    <PublishTrimmed>false</PublishTrimmed>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <DebugType>None</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <InvariantGlobalization>false</InvariantGlobalization>
+    <EnableCompressionInSingleFile>false</EnableCompressionInSingleFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DeskStealth.Core\DeskStealth.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="DeskStealth.App.Tests" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Assets\characters.png">
+      <DependentUpon>GameAssets.resx</DependentUpon>
+    </None>
+    <None Update="Assets\office-tiles.png">
+      <DependentUpon>GameAssets.resx</DependentUpon>
+    </None>
+  </ItemGroup>
+</Project>
