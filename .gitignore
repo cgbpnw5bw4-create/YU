@@ -1,2 +1,11 @@
+# .NET / Visual Studio build output
+**/bin/
+**/obj/
+.vs/
+TestResults/
+*.user
+*.suo
 
+# Locally generated release artifacts
 /artifacts/publish/
+/dist/
