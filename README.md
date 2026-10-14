@@ -4,7 +4,9 @@
 
 ## 直接运行
 
-双击 `dist\DeskStealth.exe`。发布物为 Windows 10/11 x64 自包含单文件，不要求预装 .NET。
+从 [GitHub Releases](https://github.com/cgbpnw5bw4-create/YU/releases/latest) 下载 `DeskStealth.exe` 后双击运行。发布物为 Windows 10/11 x64 自包含单文件，不要求预装 .NET。
+
+源码仓库不直接跟踪发布文件和构建产物；开发机上的本地发布结果位于 `artifacts\publish` 或 `dist`。
 
 未签名 EXE 可能触发 Windows SmartScreen；本项目不会绕过系统提示，也未提供安装包、自启动或代码签名。
 
